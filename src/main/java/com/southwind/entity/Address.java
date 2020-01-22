@@ -1,5 +1,8 @@
 package com.southwind.entity;
 
-public class Address {
+import lombok.Data;
 
+@Data
+public class Address {
+    private String value;
 }

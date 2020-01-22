@@ -36,7 +36,18 @@
           <artifactId>lombok</artifactId>
           <version>1.16.12</version>
       </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.32</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.0.1</version>
+    </dependency>
   </dependencies>
+
 
   <build>
     <finalName>aispringmvc</finalName>
